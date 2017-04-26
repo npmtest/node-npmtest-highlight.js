@@ -1,4 +1,7 @@
-# test coverage for  [highlight.js (v9.10.0)](https://highlightjs.org/)  [![npm package](https://img.shields.io/npm/v/npmtest-highlight.js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-highlight.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-highlight.js.svg)](https://travis-ci.org/npmtest/node-npmtest-highlight.js)
+# npmtest-highlight.js
+
+#### basic test coverage for  [highlight.js (v9.11.0)](https://highlightjs.org/)  [![npm package](https://img.shields.io/npm/v/npmtest-highlight.js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-highlight.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-highlight.js.svg)](https://travis-ci.org/npmtest/node-npmtest-highlight.js)
+
 #### Syntax highlighting with language autodetection.
 
 [![NPM](https://nodei.co/npm/highlight.js.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/highlight.js)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-highlight.js/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-highlight.js/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-highlight.js/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-highlight.js/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-highlight.js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-highlight.js/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-highlight.js/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-highlight.js/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-highlight.js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-highlight.js/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-highlight.js/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-highlight.js/build/coverage.html/index.html)
 
@@ -747,6 +750,15 @@
         },
         {
             "name": "Rene Saarsoo"
+        },
+        {
+            "name": "Jordi Petit"
+        },
+        {
+            "name": "Raphaël Parrëe"
+        },
+        {
+            "name": "Joël Porquet"
         }
     ],
     "dependencies": {},
@@ -767,8 +779,8 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "f9f0b14c0be00f0e4fb1e577b749fed9e6f52f55",
-        "tarball": "https://registry.npmjs.org/highlight.js/-/highlight.js-9.10.0.tgz"
+        "shasum": "47f98c7399918700db2caf230ded12cec41a84ae",
+        "tarball": "https://registry.npmjs.org/highlight.js/-/highlight.js-9.11.0.tgz"
     },
     "engines": {
         "node": "*"
@@ -798,7 +810,8 @@
         "test": "mocha test/",
         "test-browser": "mocha test/browser/"
     },
-    "version": "9.10.0"
+    "version": "9.11.0",
+    "bin": {}
 }
 ```
 
